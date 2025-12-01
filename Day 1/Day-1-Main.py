@@ -27,6 +27,7 @@ with open(input_path) as f:
             elif direction == "R":
                 x = (x + 1) % 100
 
+            # Toggle on if want to count how many times 0 is clicked on
             #if x == 0:
                 #password += 1
         if x == 0:
